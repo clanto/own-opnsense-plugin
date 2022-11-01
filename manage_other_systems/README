@@ -5,3 +5,5 @@ cd /var/manage_other_systems
 wget https://raw.githubusercontent.com/clanto/own-opnsense-plugin/main/manage_other_systems/actions_reboot.conf
 wget https://raw.githubusercontent.com/clanto/own-opnsense-plugin/main/manage_other_systems/reboot_dlink.sh
 wget https://raw.githubusercontent.com/clanto/own-opnsense-plugin/main/manage_other_systems/reboot_grandstream.sh
+cp /var/manage_other_systems/actions_reboot.conf /usr/local/opnsense/service/conf/actions.d/actions_reboot.conf
+service configd restart
