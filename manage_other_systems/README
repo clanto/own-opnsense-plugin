@@ -1,0 +1,7 @@
+This is only a note to add some cron jobs for some actions to our customers.
+
+mkdir /var/manage_other_systems
+cd /var/manage_other_systems
+wget https://raw.githubusercontent.com/clanto/own-opnsense-plugin/main/manage_other_systems/actions_reboot.conf
+wget https://raw.githubusercontent.com/clanto/own-opnsense-plugin/main/manage_other_systems/reboot_dlink.sh
+wget https://raw.githubusercontent.com/clanto/own-opnsense-plugin/main/manage_other_systems/reboot_grandstream.sh
